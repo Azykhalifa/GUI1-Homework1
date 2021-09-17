@@ -1,0 +1,84 @@
+/*
+NAME: Mohmmadazhar Khalifa
+DATE: 09/08/2021
+DESCRIPTION: This is my css file which handles the look on my html files.
+*/
+
+/*Sets background on all pages */
+body{
+    background-image: url(images/background.jpg);
+}
+
+/* This is all the formating I used for the Navigation bar on all my pages*/
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:  white;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    color: darkblue;
+    text-decoration: none;
+    width: 100px;
+    padding: 25px 20px;
+    font-size: 10pt;
+    font-weight: bold;
+    display: block;
+}
+.navbar a:hover{
+    background-color: pink;
+}
+
+/* Formats my H1 titles */
+h1 {
+    font-family: fantasy;
+    color : blue;
+    font-size: 24pt;
+    text-shadow: 2px 2px white;
+
+
+}
+/* Styles the heading on my Classes page*/
+.classesh1 {
+    color: purple;
+    font-style: normal;
+
+}
+
+/* Applied shadow to pictures. used at multiple locations*/
+.pictureshadow {
+    box-shadow: 2px 2px 10px black;
+}
+
+h2 {
+    color : purple;
+    font-family: fantasy;
+
+}
+
+h4{
+    color : black;
+}
+/* creats a border around the about me text and hobbies on main page*/
+.border {
+    font-size: 15pt;
+    border-style: solid;
+    border-color: black;
+ }
+
+ table, th, td{
+     width: auto;
+     border: 2px solid black;
+     border-collapse: collapse;
+ }
+ .tableheading {
+     color: black;
+     font-size: 15pt;
+     background-color: lightblue;
+ }
